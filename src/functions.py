@@ -1,3 +1,5 @@
+import numpy as np
+
 def space_to_two_points(string):
     try:
         return string.replace(" ", ":")
@@ -21,11 +23,18 @@ def list_of_characters(index,list_,cast):
     return(list_)
 
 def string_to_int(string):
+    """
+    Turns a string into a integer (if possible)
+    Args:
+        string (string): string to work with 
+    Returns:
+        If it is possible it returns the string as an integer, if not, it returns nan.
+    """
     try:
         string = string.replace(",", "")
         return int(string)
     except: 
-        return 0
+        return np.nan
 
 def create(df,column,list_):
     """

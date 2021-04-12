@@ -13,7 +13,6 @@ import src.downloading_and_cleaning as d
 import src.api as api
 import src.enriching_and_cleaning as e
 import src.scrapping as s
-import src.visualization as v
 load_dotenv()
 
 if (load_dotenv()):
@@ -35,15 +34,7 @@ df_url.head(3)
 
 ### Calling the API
 
-#dict_ = api.calling_api(df_url)
-
-#df_pruebas = pd.DataFrame.from_dict(dict_)
-
-#df_pruebas.to_csv("pruebas.csv")
-
-df_pruebas = pd.read_csv("pruebas.csv")
-
-dict_2 = df_pruebas.to_dict()
+dict_ = api.calling_api(df_url)
 
 ### Enriching the dataframe with data taken from de API
 
@@ -51,7 +42,7 @@ dict_2 = df_pruebas.to_dict()
 
 df_short = df.head(100)
 
-df_short_clean = e.enriching(df, df_short, dict_2)
+df_short_clean = e.enriching(df, df_short, dict_)
 
 df_short_clean = e.more_cleaning(df_short_clean)
 
@@ -91,7 +82,6 @@ df_intersection.to_csv("data/IMDB_FA_reduced.csv")
 
 os.system('say -v Samantha exporting last dataframe')
 
-v.visualization()
 
 
 
