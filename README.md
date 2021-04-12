@@ -20,7 +20,7 @@ The tools to be used are functions, list comprehensions, string operations, pand
 
 ## My project
 
-I selected from kaggle a dataset with information about the top 1000 movies and a RapidAPI API with complementary information about those movies. 
+I selected from kaggle a dataset with information about the top 1000 movies from ***IMDB*** and a RapidAPI API with complementary information about those movies, also from ***IMDB***. 
 
 From that dataframe, I expanded information on the top 100 movies thanks to the API, cleaned the resulting dataframe and came to certain conclusions. 
 
