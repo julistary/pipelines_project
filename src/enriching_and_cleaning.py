@@ -13,7 +13,6 @@ def enriching(df, df_short, dict_):
     """
 
     imdb_id = dict_['imdb_id']
-    rating_votes = dict_['rating_votes']
     cast = dict_['cast']
 
     #### Adding the IMDB ID to de dataframe

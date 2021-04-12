@@ -1,7 +1,10 @@
-### Importing libraries, functions and CSV
+# 👩🏼‍💻 MAIN 👩🏼‍💻 
+
+### Importing libraries and functions 
 
 import pandas as pd
 import requests
+import numpy as np
 from pandas import json_normalize
 import os
 from dotenv import load_dotenv
@@ -18,11 +21,12 @@ load_dotenv()
 if (load_dotenv()):
     os.system('say -v Samantha dotenv works!')
 
+### Downloading and opening dataset
+
 d.download_dataset()
 
 df = pd.read_csv("data/dataset.csv")
 
-df.head(3)
 
 ### Preliminary cleaning
 
@@ -30,7 +34,6 @@ df = d.preliminary_cleaning(df)
 
 df_url = df['Series_Titles_URL']
 
-df_url.head(3)
 
 ### Calling the API
 
@@ -46,13 +49,13 @@ df_short_clean = e.enriching(df, df_short, dict_)
 
 df_short_clean = e.more_cleaning(df_short_clean)
 
-df_short_clean.head(4)
+### Exporting dataframe
 
 df_short_clean.to_csv("data/df_short_clean.csv")
 
-os.system('say -v Samantha exporting first dataframe')
+os.system('say -v Samantha Exporting first dataframe')
 
-### Scrapping
+### Scrapping the best movies from filmaffinity.com and creating a dataframe
 
 filmaffinity = s.scrapping()
 
@@ -60,19 +63,18 @@ filmaffinity.head()
 
 IMDB = s.cleaning(df_short_clean)
 
-IMDB.head()
+
+### Joining filmaffinity's dataframe and IMDB's dataframe
 
 df_IMDB_FA = s.joining(IMDB,filmaffinity)
 
-df_IMDB_FA.head()
 
-### Intersection
+### Creating a new dataframe with the intersection
 
 df_intersection = s.intersection(df_IMDB_FA, IMDB, filmaffinity)
 
-df_intersection
 
-#### Exporting dataframes
+### Exporting dataframes
 
 df_IMDB_FA.to_csv("data/df_IMDB_FA.csv")
 
@@ -81,11 +83,6 @@ os.system('say -v Samantha exporting second dataframe')
 df_intersection.to_csv("data/IMDB_FA_reduced.csv")
 
 os.system('say -v Samantha exporting last dataframe')
-
-
-
-
-
 
 
 
