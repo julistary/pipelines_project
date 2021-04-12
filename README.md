@@ -25,3 +25,12 @@ I selected from kaggle a dataset with information about the top 1000 movies from
 From that dataframe, I expanded information on the top 100 movies thanks to the API, cleaned the resulting dataframe and came to certain conclusions. 
 
 Then, I created another dataframe with the 30 best movies according to filmaffinity thanks to web scrapping. I put it together with the initial IMDB dataframe and came to some conclusions. 
+
+## Steps followed
+
+1. Downloading and importing dataset
+2. Enriching it with data from the API
+3. Cleaning it 
+4. Creating a new dataframe with information from web-scrapping filmaffinity.com
+5. Joining it with the IMDB dataframe
+6. Plotting and extracting conclusions
