@@ -1,31 +1,31 @@
 ,Title_IMDB,Year_IMDB,Rating_IMDB,Director_IMDB,No_of_Votes_IMDB,Title_FA,Year_FA,Director_FA,Rating_FA,No_of_Votes_FA
 0,The Shawshank Redemption,1994,9.3,Frank Darabont,2343110,The Godfather,1972,Francis Ford Coppola,9.0,170799
 1,The Godfather,1972,9.2,Francis Ford Coppola,1620367,The Godfather: Part II,1974,Francis Ford Coppola,8.9,136024
-2,The Dark Knight,2008,9.0,Christopher Nolan,2303232,12 Angry Men,1957,Sidney Lumet,8.7,67224
-3,The Godfather: Part II,1974,9.0,Francis Ford Coppola,1129952,Schindler's List,1993,Steven Spielberg,8.6,171202
-4,12 Angry Men,1957,9.0,Sidney Lumet,689845,Witness for the Prosecution,1957,Billy Wilder,8.6,42791
+2,The Dark Knight,2008,9.0,Christopher Nolan,2303232,12 Angry Men,1957,Sidney Lumet,8.7,67225
+3,The Godfather: Part II,1974,9.0,Francis Ford Coppola,1129952,Schindler's List,1993,Steven Spielberg,8.6,171203
+4,12 Angry Men,1957,9.0,Sidney Lumet,689845,Witness for the Prosecution,1957,Billy Wilder,8.6,42792
 5,The Lord of the Rings: The Return of the King,2003,8.9,Peter Jackson,1642758,City Lights,1931,Charles Chaplin,8.6,31591
-6,Pulp Fiction,1994,8.9,Quentin Tarantino,1826188,The Shawshank Redemption,1994,Frank Darabont,8.6,165185
+6,Pulp Fiction,1994,8.9,Quentin Tarantino,1826188,The Shawshank Redemption,1994,Frank Darabont,8.6,165187
 7,Schindler's List,1993,8.9,Steven Spielberg,1213505,Pulp Fiction,1994,Quentin Tarantino,8.6,198860
 8,Inception,2010,8.8,Christopher Nolan,2067042,The Great Dictator,1940,Charles Chaplin,8.6,84080
 9,Fight Club,1999,8.8,David Fincher,1854740,Modern Times,1936,Charles Chaplin,8.6,61675
-10,The Lord of the Rings: The Fellowship of the Ring,2001,8.8,Peter Jackson,1661481,The Sting,1973,George Roy Hill,8.6,97888
-11,Forrest Gump,1994,8.8,Robert Zemeckis,1809221,To Be or Not to Be,1942,Ernst Lubitsch,8.5,34153
-12,"Il buono, il brutto, il cattivo",1966,8.8,Sergio Leone,688390,Harakiri,1962,Masaki Kobayashi,8.5,11199
-13,The Lord of the Rings: The Two Towers,2002,8.7,Peter Jackson,1485555,Sunset Boulevard,1950,Billy Wilder,8.5,44714
+10,The Lord of the Rings: The Fellowship of the Ring,2001,8.8,Peter Jackson,1661481,The Sting,1973,George Roy Hill,8.6,97894
+11,Forrest Gump,1994,8.8,Robert Zemeckis,1809221,To Be or Not to Be,1942,Ernst Lubitsch,8.5,34154
+12,"Il buono, il brutto, il cattivo",1966,8.8,Sergio Leone,688390,Harakiri,1962,Masaki Kobayashi,8.5,11200
+13,The Lord of the Rings: The Two Towers,2002,8.7,Peter Jackson,1485555,Sunset Boulevard,1950,Billy Wilder,8.5,44715
 14,The Matrix,1999,8.7,Lana Wachowski,1676426,Life Is Beautiful,1997,Roberto Benigni,8.5,188355
 15,Goodfellas,1990,8.7,Martin Scorsese,1020727,All About Eve,1950,Joseph L. Mankiewicz,8.5,34283
-16,Star Wars: Episode V - The Empire Strikes Back,1980,8.7,Irvin Kershner,1159315,Paths of Glory,1957,Stanley Kubrick,8.4,53854
+16,Star Wars: Episode V - The Empire Strikes Back,1980,8.7,Irvin Kershner,1159315,Paths of Glory,1957,Stanley Kubrick,8.4,53856
 17,One Flew Over the Cuckoo's Nest,1975,8.7,Milos Forman,918088,Seven Samurai,1954,Akira Kurosawa,8.4,41004
-18,Hamilton,2020,8.6,Thomas Kail,55291,Double Indemnity,1944,Billy Wilder,8.4,32273
+18,Hamilton,2020,8.6,Thomas Kail,55291,Double Indemnity,1944,Billy Wilder,8.4,32275
 19,Gisaengchung,2019,8.6,Bong Joon Ho,552778,Sunrise,1927,F.W. Murnau,8.4,13736
-20,Soorarai Pottru,2020,8.6,Sudha Kongara,54995,High and Low,1963,Akira Kurosawa,8.4,8566
+20,Soorarai Pottru,2020,8.6,Sudha Kongara,54995,High and Low,1963,Akira Kurosawa,8.4,8567
 21,Interstellar,2014,8.6,Christopher Nolan,1512360,The Apartment,1960,Billy Wilder,8.4,79009
 22,Cidade de Deus,2002,8.6,Fernando Meirelles,699256,City of God,2002,"Fernando Meirelles, Kátia Lund",8.4,124247
-23,Sen to Chihiro no kamikakushi,2001,8.6,Hayao Miyazaki,651376,The Kid,1921,Charles Chaplin,8.4,31597
+23,Sen to Chihiro no kamikakushi,2001,8.6,Hayao Miyazaki,651376,The Kid,1921,Charles Chaplin,8.4,31598
 24,Saving Private Ryan,1998,8.6,Steven Spielberg,1235804,The Hole (The Night Watch),1960,Jacques Becker,8.4,11674
 25,The Green Mile,1999,8.6,Frank Darabont,1147794,The Gold Rush,1925,Charles Chaplin,8.4,26847
 26,La vita è bella,1997,8.6,Roberto Benigni,623629,Psycho,1960,Alfred Hitchcock,8.4,106226
-27,Se7en,1995,8.6,David Fincher,1445096,Goodfellas,1990,Martin Scorsese,8.4,109731
-28,The Silence of the Lambs,1991,8.6,Jonathan Demme,1270197,Casablanca,1942,Michael Curtiz,8.4,95405
-29,Star Wars,1977,8.6,George Lucas,1231473,One Flew Over the Cuckoo's Nest,1975,Milos Forman,8.3,108741
+27,Se7en,1995,8.6,David Fincher,1445096,Goodfellas,1990,Martin Scorsese,8.4,109733
+28,The Silence of the Lambs,1991,8.6,Jonathan Demme,1270197,Casablanca,1942,Michael Curtiz,8.4,95406
+29,Star Wars,1977,8.6,George Lucas,1231473,One Flew Over the Cuckoo's Nest,1975,Milos Forman,8.3,108742
