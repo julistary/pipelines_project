@@ -10,13 +10,13 @@ For this project, we had to choose a dataset, enriching it through the use of ap
 The tools to be used are functions, list comprehensions, string operations, pandas, and error handling, etc. 
 
 ## Libraries
-- [Pandas] (https://pandas.pydata.org/docs/)
-- [Requests] (https://docs.python-requests.org/en/master/)
-- [Os] (https://docs.python.org/3/library/os.html)
-- [Dotenv] (https://pypi.org/project/python-dotenv/)
-- [Re] (https://docs.python.org/3/library/re.html)
-- [BeautifulSoup] (https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [Numpy] (https://numpy.org/doc/)
+- [Pandas](https://pandas.pydata.org/docs/)
+- [Requests](https://docs.python-requests.org/en/master/)
+- [Os](https://docs.python.org/3/library/os.html)
+- [Dotenv](https://pypi.org/project/python-dotenv/)
+- [Re](https://docs.python.org/3/library/re.html)
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Numpy](https://numpy.org/doc/)
 
 ## My project
 
