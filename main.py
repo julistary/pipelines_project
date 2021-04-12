@@ -35,11 +35,11 @@ df_url.head(3)
 
 ### Calling the API
 
-dict_ = api.calling_api(df_url)
+#dict_ = api.calling_api(df_url)
 
-df_pruebas = pd.DataFrame.from_dict(dict_)
+#df_pruebas = pd.DataFrame.from_dict(dict_)
 
-df_pruebas.to_csv("pruebas.csv")
+#df_pruebas.to_csv("pruebas.csv")
 
 df_pruebas = pd.read_csv("pruebas.csv")
 
@@ -90,7 +90,6 @@ os.system('say -v Samantha exporting second dataframe')
 df_intersection.to_csv("data/IMDB_FA_reduced.csv")
 
 os.system('say -v Samantha exporting last dataframe')
-
 
 v.visualization()
 
