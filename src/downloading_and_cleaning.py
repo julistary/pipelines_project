@@ -37,7 +37,13 @@ def download_dataset():
             return os.system(move_and_delete)
 
 def preliminary_cleaning(df):
-    
+    """
+    Cleans a dataframe.
+    Args:
+        df (df): the dataframe that wants to be cleaned
+    Returns:
+        The dataframe cleaned
+    """
     df = df.drop_duplicates()
     df.dropna(axis = 0, how="all",inplace=True)
     df.drop(['Poster_Link','Overview'], axis=1, inplace = True)

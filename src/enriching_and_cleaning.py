@@ -2,6 +2,16 @@ import src.functions as f
 
 def enriching(df, df_short, dict_):
 
+    """
+    Enriches and cleans a dataframe with data from dictionaries
+    Args:
+        df (df): dataframe needed for nested functions to work
+        df_short (df): dataframe in which the data will be appended
+        dict_ (dict): dictionary with stored data 
+    Returns:
+        The dataframe enriched and cleaned
+    """
+
     imdb_id = dict_['imdb_id']
     rating_votes = dict_['rating_votes']
     cast = dict_['cast']
@@ -49,6 +59,14 @@ def enriching(df, df_short, dict_):
     return df_short_clean
 
 def more_cleaning(df_short_clean):
+    """
+    Cleans a dataframe.
+    Args:
+        df_short_clean (df): the dataframe that wants to be cleaned
+    Returns:
+        The dataframe cleaned
+    """
+    
     ### Cleaning the column 'Genre'
 
     #### Selecting the accurate genre

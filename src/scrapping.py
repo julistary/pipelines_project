@@ -6,6 +6,13 @@ import src.functions as f
 import pandas as pd
 
 def scrapping():
+    """
+    Creates a dataframe with information scrapped from filmaffinity web.
+    Returns:
+        The new dataframe
+    """
+
+    # Scrapping
     os.system('say -v Samantha scrapping from filmaffinity.com')
 
     url = "https://www.filmaffinity.com/us/topgen.php?genre=&fromyear=&toyear=&country=&nodoc&notvse"
@@ -55,7 +62,13 @@ def scrapping():
     return filmaffinity
 
 def cleaning(IMDB):
-    ### Cleaning IMDB dataframe
+    """
+    Cleans a dataframe.
+    Args:
+        IMDB (df): the dataframe that wants to be cleaned
+    Returns:
+        The dataframe cleaned
+    """
 
     IMDB.drop(['Star1_Character1','Star2_Character2','Star3_Character3','Star4_Character4','IMDB_ID', 'Gross','Meta_score' ,'Runtime','Certificate','Genre', 'Genres_Clean', 'Genres_Grouped' ],axis=1,inplace=True)
 
@@ -66,13 +79,30 @@ def cleaning(IMDB):
     return(IMDB)
 
 def joining(IMDB, filmaffinity):
-    ### Joining dataframes
+    """
+    Joins two dataframe
+    Args:
+        IMDB (df): first dataframe
+        filmaffinity(df): second dataframe
+    Returns:
+        The dataframe of the two dataframes joined.
+    """
 
     df = IMDB.join(filmaffinity)
 
     return df
 
 def intersection(df,IMDB, filmaffinity):
+
+    """
+    Creates a new dataframe with the intersection of two dataframes.
+    Args:
+        df (df): dataframe needed for nested functions to work
+        IMDB (df): first dataframe
+        filmaffinity(df): second dataframe
+    Returns:
+        The dataframe of the intersection
+    """
     
     titles_IMDB = set(df['Title_IMDB'])
     titles_FA = set(df['Title_FA']) 

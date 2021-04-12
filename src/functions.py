@@ -1,6 +1,13 @@
 import numpy as np
 
 def space_to_two_points(string):
+    """
+    Changes the spaces of a string to ':'
+    Args:
+        string (string): the string to work with
+    Returns:
+        The string with the new format
+    """
     try:
         return string.replace(" ", ":")
     except:
@@ -8,6 +15,14 @@ def space_to_two_points(string):
 
 
 def result_to_df(list_,name):
+    """
+    Creates a dataframe from a list
+    Args:
+        list_ (list): list to work with
+        name (string): the name of the column of the dataframe desired
+    Returns:
+        The list as a dataframe
+    """
     import pandas as pd
     list_ = pd.Series(list_)
     list_ = list_.to_frame(name)
@@ -15,6 +30,15 @@ def result_to_df(list_,name):
 
 
 def list_of_characters(index,list_,cast):
+    """
+    Selects from a list of dictionary, the list desired
+    Args:
+        index (int): index of the dictionary to work with
+        list_ (list): empty list where the list desired will be appended
+        cast (list): list of dictionaries to work with
+    Returns:
+        The list desired
+    """
     for actor in cast:
         try:
             list_.append(actor[index]['character'])

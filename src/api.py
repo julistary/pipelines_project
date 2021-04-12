@@ -3,6 +3,14 @@ import os
 import requests 
 
 def calling_api(df_url):
+
+    """
+    Requests and safe information from an API
+    Args:
+        df_url(string): the string that needs to be added to the url to make the call
+    Returns:
+        A dictionary with de data collected
+    """
    
     api_key = os.getenv("token")
     api_host = os.getenv("host")
