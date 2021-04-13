@@ -55,7 +55,7 @@ df_short_clean.to_csv("data/df_short_clean.csv")
 
 os.system('say -v Samantha Exporting first dataframe')
 
-### Scrapping the best movies from filmaffinity.com and creating a dataframe
+### Scraping the best movies from filmaffinity.com and creating a dataframe
 
 filmaffinity = s.scrapping()
 
